@@ -12,7 +12,9 @@
                 <transition name="slide" type="animation">
                     <div class="alert alert-info" v-if="show">This is an info</div>
                 </transition>
-                <transition name="fade" appear>
+                <transition
+                        enter-active-class="animated bounce"
+                        leave-active-class="animated rollOut">
                     <div class="alert alert-info" v-if="show">This is an info</div>
                 </transition>
             </div>
