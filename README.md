@@ -1,6 +1,6 @@
-# forms
+# Vue JS
 
-> Forms in vueJS
+> Vjs projects
 
 ## Build Setup
 
